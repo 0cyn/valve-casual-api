@@ -18,7 +18,7 @@ def query_servers(server_list):
 
     for server in server_list:
         if len(current_task_set) < 500:
-            current_task_set.append(query.get_server(server))
+            current_task_set.append(query.check_server(server))
         else:
             task_sets.append(list(current_task_set))
             current_task_set = []

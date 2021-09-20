@@ -7,7 +7,7 @@ ServerAddress = namedtuple("ServerAddress", ["ip", "port", "region"])
 
 
 def get_data_file_path(filename):
-    return path.dirname(__file__) + '\\data\\' + filename
+    return path.dirname(__file__) + '/data/' + filename
 
 
 def get_servers_raw():

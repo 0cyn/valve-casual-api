@@ -1,0 +1,330 @@
+{
+  "regions": {
+    "iad": {
+      "location": {
+        "city": "Ashburn",
+        "region": "Virginia",
+        "country": "United States",
+        "continent": "North America"
+      }
+    },
+    "lax": {
+      "location": {
+        "city": "Los Angeles",
+        "region": "California",
+        "country": "United States",
+        "continent": "North America"
+      }
+    },
+    "sea": {
+      "location": {
+        "city": "Seattle",
+        "region": "Washington State",
+        "country": "United States",
+        "continent": "North America"
+      }
+    },
+    "sto": {
+      "location": {
+        "city": "Stockholm",
+        "region": "Stockholm County",
+        "country": "Sweden",
+        "continent": "Europe"
+      }
+    },
+    "mad": {
+      "location": {
+        "city": "Madrid",
+        "region": "Madrid",
+        "country": "Spain",
+        "continent": "Europe"
+      }
+    },
+    "fra": {
+      "location": {
+        "city": "Frankfurt",
+        "region": "Hesse",
+        "country": "Germany",
+        "continent": "Europe"
+      }
+    },
+    "sgp": {
+      "location": {
+        "city": "Singapore",
+        "region": "Singapore",
+        "country": "Singapore",
+        "continent": "Asia"
+      }
+    },
+    "hgk": {
+      "location": {
+        "city": "Central",
+        "region": "Central and Western District",
+        "country": "Hong Kong",
+        "continent": "Asia"
+      }
+    },
+    "tyo": {
+      "location": {
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "Japan",
+        "continent": "Asia"
+      }
+    },
+    "pru": {
+      "comment": "This appears to actually be in Chile?",
+      "location": {
+        "city": "Peru",
+        "region": "Peru",
+        "country": "Peru",
+        "continent": "South America"
+      }
+    },
+    "chl": {
+      "location": {
+        "city": "Santiago",
+        "region": "Santiago Metropolitan",
+        "country": "Chile",
+        "continent": "South America"
+      }
+    }
+  },
+  "game-servers": [
+    {
+      "region": "iad",
+      "game-blocks": [
+        {
+          "prefix": "162.254.192",
+          "ip-range": [146, 155],
+          "port-range": [27015, 27075]
+        },
+        {
+          "prefix": "208.78.165",
+          "ip-range": [163, 165],
+          "port-range": [27015, 27075]
+        },
+        {
+          "prefix": "208.78.165",
+          "ip-range": [231, 235],
+          "port-range": [27015, 27075]
+        },
+        {
+          "prefix": "208.78.166",
+          "ip-range": [228, 229],
+          "port-range": [27015, 27075]
+        }
+      ]
+    },
+    {
+      "region": "lax",
+      "game-blocks": [
+        {
+          "prefix": "162.254.195",
+          "ip-range": [114, 118],
+          "port-range": [27015, 27075]
+        }
+      ]
+    },
+    {
+      "region": "sea",
+      "game-blocks": [
+        {
+          "prefix": "192.69.97",
+          "ip-range": [60, 62],
+          "port-range": [27015, 27075]
+        }
+      ]
+    },
+    {
+      "region": "sto",
+      "game-blocks": [
+        {
+          "prefix": "146.66.156",
+          "ip-range": [167, 168],
+          "port-range": [27015, 27075]
+        },
+        {
+          "prefix": "146.66.157",
+          "ip-range": [71, 72],
+          "port-range": [27015, 27075]
+        },
+        {
+          "prefix": "146.66.157",
+          "ip-range": [232, 233],
+          "port-range": [27015, 27075]
+        },
+        {
+          "prefix": "155.133.242",
+          "ip-range": [167, 168],
+          "port-range": [27015, 27075]
+        },
+        {
+          "prefix": "155.133.243",
+          "ip-range": [71, 72],
+          "port-range": [27015, 27075]
+        },
+        {
+          "prefix": "185.25.180",
+          "ip-range": [167, 168],
+          "port-range": [27015, 27075]
+        },
+        {
+          "prefix": "185.25.181",
+          "ip-range": [71, 72],
+          "port-range": [27015, 27075]
+        },
+        {
+          "prefix": "185.25.181",
+          "ip-range": [230, 235],
+          "port-range": [27015, 27075]
+        },
+        {
+          "prefix": "155.133.252",
+          "ip-range": [100, 100],
+          "port-range": [27015, 27075]
+        },
+        {
+          "prefix": "155.133.252",
+          "ip-range": [103, 103],
+          "port-range": [27015, 27075]
+        },
+        {
+          "prefix": "155.133.252",
+          "ip-range": [105, 105],
+          "port-range": [27015, 27075]
+        },
+        {
+          "prefix": "155.133.252",
+          "ip-range": [108, 108],
+          "port-range": [27015, 27075]
+        },
+        {
+          "prefix": "155.133.252",
+          "ip-range": [114, 114],
+          "port-range": [27015, 27075]
+        },
+        {
+          "prefix": "155.133.252",
+          "ip-range": [117, 117],
+          "port-range": [27015, 27075]
+        },
+        {
+          "prefix": "155.133.252",
+          "ip-range": [120, 120],
+          "port-range": [27015, 27075]
+        }
+      ]
+    },
+    {
+      "region": "mad",
+      "game-blocks": [
+        {
+          "prefix": "155.133.246",
+          "ip-range": [84, 85],
+          "port-range": [27015, 27075]
+        }
+      ]
+    },
+    {
+      "region": "fra",
+      "game-blocks": [
+        {
+          "prefix": "155.133.226",
+          "ip-range": [116, 116],
+          "port-range": [27015, 27271]
+        },
+        {
+          "prefix": "155.133.226",
+          "ip-range": [124, 124],
+          "port-range": [27015, 27271]
+        }
+      ]
+    },
+    {
+      "region": "sgp",
+      "game-blocks": [
+        {
+          "prefix": "103.28.54",
+          "ip-range": [163, 164],
+          "port-range": [27015, 27075]
+        },
+        {
+          "prefix": "103.28.55",
+          "ip-range": [71, 73],
+          "port-range": [27015, 27075]
+        },
+        {
+          "prefix": "103.28.55",
+          "ip-range": [232, 233],
+          "port-range": [27015, 27075]
+        },
+        {
+          "prefix": "45.121.184",
+          "ip-range": [163, 164],
+          "port-range": [27015, 27075]
+        },
+        {
+          "prefix": "45.121.185",
+          "ip-range": [67, 68],
+          "port-range": [27015, 27075]
+        },
+        {
+          "prefix": "45.121.185",
+          "ip-range": [228, 229],
+          "port-range": [27015, 27075]
+        }
+      ]
+    },
+    {
+      "region": "hgk",
+      "game-blocks": [
+        {
+          "prefix": "153.254.86",
+          "ip-range": [212, 212],
+          "port-range": [27015, 27075]
+        },
+        {
+          "prefix": "153.254.86",
+          "ip-range": [217, 217],
+          "port-range": [27015, 27075]
+        }
+      ]
+    },
+    {
+      "region": "tyo",
+      "game-blocks": [
+        {
+          "prefix": "45.121.186",
+          "ip-range": [160, 162],
+          "port-range": [27015, 27075]
+        },
+        {
+          "prefix": "45.121.187",
+          "ip-range": [60, 62],
+          "port-range": [27015, 27075]
+        }
+      ]
+    },
+    {
+      "region": "pru",
+      "game-blocks": [
+        {
+          "prefix": "190.217.33",
+          "ip-range": [84, 85],
+          "port-range": [27015, 27075]
+        }
+      ]
+    },
+    {
+      "region": "chl",
+      "game-blocks": [
+        {
+          "prefix": "155.133.249",
+          "ip-range": [91, 92],
+          "port-range": [27015, 27075]
+        }
+      ]
+    }
+  ]
+}

@@ -28,6 +28,8 @@ async def get_server(server_address: ServerAddress):
         return GameServer(server_address.region, server_address, info, player_list)
     except asyncio.exceptions.TimeoutError:
         return None
+    except Exception:
+        return None
 
 
 async def check_server(server_address: ServerAddress):

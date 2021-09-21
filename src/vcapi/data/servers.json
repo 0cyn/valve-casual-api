@@ -1,6 +1,7 @@
 {
   "regions": {
     "iad": {
+      "code": "iad",
       "location": {
         "city": "Ashburn",
         "region": "Virginia",
@@ -9,6 +10,7 @@
       }
     },
     "lax": {
+      "code": "lax",
       "location": {
         "city": "Los Angeles",
         "region": "California",
@@ -17,6 +19,7 @@
       }
     },
     "sea": {
+      "code": "sea",
       "location": {
         "city": "Seattle",
         "region": "Washington State",
@@ -25,6 +28,7 @@
       }
     },
     "sto": {
+      "code": "sto",
       "location": {
         "city": "Stockholm",
         "region": "Stockholm County",
@@ -33,6 +37,7 @@
       }
     },
     "mad": {
+      "code": "mad",
       "location": {
         "city": "Madrid",
         "region": "Madrid",
@@ -41,6 +46,7 @@
       }
     },
     "fra": {
+      "code": "fra",
       "location": {
         "city": "Frankfurt",
         "region": "Hesse",
@@ -49,6 +55,7 @@
       }
     },
     "sgp": {
+      "code": "sgp",
       "location": {
         "city": "Singapore",
         "region": "Singapore",
@@ -57,6 +64,7 @@
       }
     },
     "hgk": {
+      "code": "hgk",
       "location": {
         "city": "Central",
         "region": "Central and Western District",
@@ -65,6 +73,7 @@
       }
     },
     "tyo": {
+      "code": "tyo",
       "location": {
         "city": "Tokyo",
         "region": "Tokyo",
@@ -73,6 +82,7 @@
       }
     },
     "pru": {
+      "code": "pru",
       "comment": "This appears to actually be in Chile?",
       "location": {
         "city": "Peru",
@@ -82,6 +92,7 @@
       }
     },
     "chl": {
+      "code": "chl",
       "location": {
         "city": "Santiago",
         "region": "Santiago Metropolitan",

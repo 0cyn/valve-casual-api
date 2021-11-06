@@ -43,6 +43,7 @@ async def check_server(server_address: ServerAddress):
                 return None
             if server:
                 return server
+            sleep(1)
         return None
     except Exception:
         return None

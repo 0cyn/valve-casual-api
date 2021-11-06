@@ -34,10 +34,13 @@ async def get_server(server_address: ServerAddress):
 
 async def check_server(server_address: ServerAddress):
     try:
-        is_tf2 = await server_is_tf2(server_address)
-        server = None
-        if is_tf2:
-            server = await get_server(server_address)
-        return server
+        for i in range(0, 5): 
+            is_tf2 = await server_is_tf2(server_address)
+            server = None
+            if is_tf2:
+                server = await get_server(server_address)
+            if server:
+                return server
+        return None
     except Exception:
         return None

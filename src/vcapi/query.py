@@ -39,6 +39,8 @@ async def check_server(server_address: ServerAddress):
             server = None
             if is_tf2:
                 server = await get_server(server_address)
+            else:
+                return None
             if server:
                 return server
         return None
